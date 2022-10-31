@@ -1,0 +1,35 @@
+.mat__phone{
+  display: none;
+}
+.mat__phone2{
+  display: none;
+}
+
+
+
+
+@media screen and (max-width:1250px) {
+  .mat__phone{
+    display:flex;
+  }
+  .mat__pc{
+    display: none;
+  }
+
+
+}
+@media screen and (max-width:850px) {
+  .mat__phone{
+    display:none;
+  }
+  .mat__pc{
+    display: none;
+  }
+  .mat__phone2{
+    display:flex;
+  }
+
+
+}
+
+
